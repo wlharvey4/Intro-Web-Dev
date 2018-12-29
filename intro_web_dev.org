@@ -4,11 +4,12 @@
 #+AUTHOR:WLHarvey4
 
 #+MACRO: EDITION 0.1
-#+MACRO: VERSION 0.0.2
+#+MACRO: VERSION 0.0.3
 
 #+TEXINFO: @insertcopying
 
 * Course Info
+
 
 ** About this Course
    This course is designed to start you  on a path toward future studies in web
@@ -54,6 +55,47 @@
    several  universities, including  the UC@@texinfo:@tie{}@@Davis  Division of
    Continuing and Professional Education.  His research interests are currently
    artificial intelligence, programming languages and machine learning.
+
+** Course Overview
+   Welcome to the  fundamentals of web development. I commend  you for choosing
+   to learn something about the  foundations of web development. Whether you're
+   planning on being a  web developer part-time, or just as a  hobby, or even a
+   full-time  developer, I  think this  course can  help you  get started.
+
+   My name's  Dan Randall.   I'm a  software developer  and a  computer science
+   professor. In  this course we're  going to start  with the basics,  and with
+   your attention and practice and a lot of persistence you'll be able to learn
+   to create your own websites.  Some of  the things we'll learn in this course
+   are  common abbreviations  and terms  used in  web development  and software
+   development in  general.  You'll be able  to find and select  your web host,
+   register  your  site,   and  discuss  and  work   with  various  client-side
+   development techniques, and learn a little bit about server-side development
+   and  how  it   works  with  general  web  application   development  on  the
+   internet.
+
+   Some of the technologies we'll use  are HTML, CSS, JavaScript, and more. And
+   we'll learn more  about those as we  move through the course.  One of things
+   you'll learn  is creating a dynamic  HTML site that uses  JavaScript so that
+   you'll be able to accept your user's interaction, their input, and make your
+   site respond to  their needs.  Learning the fundamentals  of web development
+   will help you as you move on to future courses and learn to build larger and
+   more complex  sites. Everyone can  use the skills  we teach in  this course.
+   Today as we  use the internet more and more,  including mobile phones, these
+   skills can benefit everyone,  whether you're treating it as a  hobby or as a
+   profession. Thanks for  joining me, I look forward to  working with you, and
+   I'll see you in future lessons in the course.
+
+* Website Structure • Hosting
+
+* HTML Basics
+
+* JavaScript
+
+* CSS • Properties • Colors • Fonts
+
+* HTML Forms
+
+* Web Applications
 
 * Copying
   :PROPERTIES:
