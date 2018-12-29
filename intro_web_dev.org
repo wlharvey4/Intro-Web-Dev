@@ -4,7 +4,7 @@
 #+AUTHOR:WLHarvey4
 
 #+MACRO: EDITION 0.1
-#+MACRO: VERSION 0.0.3
+#+MACRO: VERSION 0.0.4
 
 #+TEXINFO: @insertcopying
 
@@ -85,7 +85,118 @@
    profession. Thanks for  joining me, I look forward to  working with you, and
    I'll see you in future lessons in the course.
 
-* Website Structure • Hosting
+* Website Structure • Website Hosting
+  #+cindex:hosting, website
+  #+cindex:structure, website
+  #+cindex:module one
+
+  - Objectives for Module One: Website Structure • Hosting
+    + define what a website hosting company does
+    + why you need a website hosting company
+    + how to select a hosting company
+    + how to identify a good name for your site
+    + how to reserve a name at a low price
+    + explain how the domain name serve works
+    + know some common tools used in web development
+
+** Introduction to Website Structure and Hosting
+   Hi,  and  welcome   to  the  first  module  in  the   Fundamentals  of  Web
+   Development. In this first module we're going to focus on some foundational
+   details we really need to know before we get into the details of coding. By
+   the end of this  module you should be able to do a  few things. Among them,
+   define what a  website hosting company does  and why you need  them. How to
+   select a hosting company and how to  identify a good name for your site and
+   reserve it at  a low price. You'll  also be able to explain  how the domain
+   name service works. And  learn about some of the common  tools we use every
+   day in  web development. Obviously,  this is a lot  to cover, so  let's get
+   started talking about web hosting.
+
+** Web Hosting
+   #+cindex:web hosting
+   #+cindex:hosting, web
+   #+cindex:hosting services
+   Hi  and welcome  to the  lesson.  Today,  I'd like  to discuss  Web Hosting.
+
+   {{{dfn(Web  Hosting)}}}   is  *a   service  that   allows  people   to  post
+   websites*.
+
+   #+cindex:servers
+   #+cindex:networking equipment
+   @@texinfo:@noindent@@  Of  course,  people   and  businesses  too.   Hosting
+   services provide  special equipment.  Support for  that equipment, including
+   24  hours support  and technology  most people  don't have  available.  This
+   includes {{{dfn(servers)}}},  which are *really expensive  high availability
+   computers*.  Networking  equipment and dedicated network  access.
+
+   {{{heading(Hosting Types)}}}
+   #+cindex:hosts, types
+   #+cindex:free hosting
+   #+cindex:hosting, free
+   #+cindex:shared hosting
+   #+cindex:hosting, shared
+   #+cindex:dedicated hosting
+   #+cindex:hosting, dedicated
+   - Free
+   - Shared
+   - Dedicated
+
+
+   There are  different types of  host.  Some  of them provide  *free hosting*.
+   Free hosting  can be convenient,  particularly when we're starting  out, but
+   the problem with free hosting is usually the service provided are of limited
+   quality.  So when we're  choosing a host, if we choose a  free host, we have
+   to understand  that we're probably going  to get what we  paid for.  *Shared
+   hosting*, by  far, the most common.   Shared hosting is low  cost.  Meaning,
+   it's not  particularly expensive.   In the  US, it would  probably be  a few
+   dollars a  month, but  the cost  is kept down,  because the  hosting service
+   shares resources  between different websites.  And  then finally, *dedicated
+   hosting* and  this is  higher cost, but  it allows us  to have  a dedicated,
+   personalize service within a hosting  center.  This is usually not necessary
+   and is reserved for large businesses who  need this kind of service.  So for
+   us, we are usually  working with free or more often  shared low cost hosting
+   services.
+
+   {{{heading(Website Hosting Services)}}}
+   #+cindex:services, hosting
+   #+cindex:hosting services
+   #+cindex:FTP
+   #+cindex:File Transfer Protocol
+   - Disk Space
+   - Email
+   - FTP
+   - Management Software
+   - Reliable Internet
+   - With Economy
+
+
+   So, let's talk a little bit about what kind of services are provided.  So, a
+   hosting service provides us *disk space for files*. Now as we learn later on
+   the course,  our websites  are composed  of many  files.  This  include HTML
+   files and images,  both of which we'll discuss later  in the course.  *Email
+   accounts*.   So  for most  hosting  services,  they  will provide  us  Email
+   Accounts. For  instance, if we  have a service or  rather a business  with a
+   particular name  say, "Joe's Boat Service",  we can get Email  Accounts that
+   will include the name "Joe's Boat Service" or any name that we chose for our
+   website. We get *File transfer software*, which is usually called FTP, which
+   stands for {{{dfn(File Transfer Protocol)}}}  and this allows us to transfer
+   files from our computers where we're working  on a website up to the hosting
+   service, where the  files can be displayed as part  of our website.  Hosting
+   services give us *Management Software*,  which allows us to manipulate files
+   on our  site and do other  work on our site,  such as starting the  site and
+   stopping the site and making any modifications  we want to do and that we do
+   this  through the  Management  Software, the  hosting  service provides  us.
+   Hosting services give us *Reliable Internet*.   Now many of us have Internet
+   at home or perhaps  we access internet on our phones,  on our smartphones or
+   possibly at a library or university.   Well, hosting services have their own
+   internet, usually  they have  several sources of  internet and  they provide
+   this to us when we're using them as a hosting service to keep our website up
+   and available to anybody  who might want to see it.   And finally, a hosting
+   service gives us all  of these things with *economy*.  Now,  a few dollars a
+   month for a shared site is relatively inexpensive in most cases.  If we were
+   to buy this equipment  or to have a dedicated site  to house this equipment,
+   it would  typically cost  thousands of  dollars to  accomplish.  So  the few
+   dollars a month or  sometimes even cheaper, if we pay for  a year in advance
+   is definitely a bargain. So, I will talk to you next time.
 
 * HTML Basics
 
@@ -111,8 +222,13 @@ Copyright \copy 2018 {{{author}}}
 Permission is granted to read, learn from, and enjoy this work.
 #+END_QUOTE
 
+* Concept Index
+  :PROPERTIES:
+  :INDEX:    cp
+  :END:
+
 * Settings :noexport:
-#+OPTIONS: H:4
+#+OPTIONS: H:4 ':t *:t
 
 #+TEXINFO_CLASS: info
 
@@ -131,3 +247,6 @@ Permission is granted to read, learn from, and enjoy this work.
 #+MACRO: cite @@texinfo:@cite{@@$1@@texinfo:}@@
 #+MACRO: var @@texinfo:@var{@@$1@@texinfo:}@@
 #+MACRO: kbd (eval (let ((case-fold-search nil) (regexp (regexp-opt '("SPC" "RET" "LFD" "TAB" "BS" "ESC" "DELETE" "SHIFT" "Ctrl" "Meta" "Alt" "Cmd" "Super" "UP" "LEFT" "RIGHT" "DOWN") 'words))) (format "@@texinfo:@kbd{@@%s@@texinfo:}@@" (replace-regexp-in-string regexp "@@texinfo:@key{@@\\&@@texinfo:}@@" $1 t))))
+#+MACRO: dfn @@texinfo:@dfn{@@$1@@texinfo:}@@
+#+MACRO: heading @@texinfo:@heading @@$1
+#+MACRO: subheading @@texinfo:@subheading @@$1
