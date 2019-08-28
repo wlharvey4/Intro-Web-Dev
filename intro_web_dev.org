@@ -4,13 +4,11 @@
 #+AUTHOR:WLHarvey4
 
 #+MACRO: EDITION 0.1
-#+MACRO: VERSION 0.0.4
+#+MACRO: VERSION 0.0.5
 
 #+TEXINFO: @insertcopying
 
 * Course Info
-
-
 ** About this Course
    This course is designed to start you  on a path toward future studies in web
    development  and  design,  no  matter how  little  experience  or  technical
@@ -34,7 +32,9 @@
    in a more advanced web development or design course or specialization.
 
    - Level :: Beginner
-   - Commitment :: 6 weeks of study, 2-3 hours/week
+   - Commitment :: 6 weeks of study,  2-3 hours/week; approximately 16 hours to
+                   complete
+   - Skills :: CSS; HTML; JavaScript;
 
 ** About the Instructor
    -  Daniel Randall,  Senior Architect  at Composer Solutions  and Instructor,
@@ -84,6 +84,213 @@
    skills can benefit everyone,  whether you're treating it as a  hobby or as a
    profession. Thanks for  joining me, I look forward to  working with you, and
    I'll see you in future lessons in the course.
+
+** Syllabus
+
+*** Week 1---Course Overview and Website Structure and Hosting
+:PROPERTIES:
+:hours:    4
+:END:
+
+This  first  module  provides  an  overview of  how  websites  function,  their
+structure, and  the ins and  outs of choosing a  website name and  selecting an
+online host to house  your website.  By the end of this  module, you'll be able
+to:
+
+- find and select a web hosting company;
+- choose an effective domain name;
+- use the host to manage your websites; and
+- discuss how networks and the internet function at a high level.
+
+**** Week 1 Videos
+- Course Overview 1m
+- Module 1 Introduction 54s
+- What is a Web Hosting Company? 4m
+- How to Find and Select a Web Hosting Company 4m
+- Naming a Website 2m
+- Website Name Registration 4m
+- Networks and the Internet 3m
+- First Look at a Website Control Panel 4m
+- Web Development Tools 6m
+
+**** Week 1 Readings
+- Web Hosting Additional Resources 45m
+- Suggested Activity: Website Hosting and Naming 1h 30m
+
+**** Week 1 Practice Exercise
+- Module 1 Quiz 20m
+
+*** Week 2---Designing Your Own Website: HTML Basics
+:PROPERTIES:
+:hours:    5
+:END:
+
+In this  module, we'll begin  to explore how to  design and create  websites by
+exploring the  base language used  to power all websites:  HTML.  By the  end of
+this lesson, you'll be able to:
+- identify and use common HTML tags;
+- add an image to a webpage;
+- create HTML-formatted tables;
+- use hyperlinks to connect a series of webpages;
+- upload your finished HTML pages to a web host; and,
+- learn some tips and tricks for styling pages and practicing your coding.
+
+**** Week 2 Videos
+- Module 2 Introduction1m
+- Components and Structure of a Website2m
+- Creating Your Own HTML: Setting Up a Template6m
+- Creating Your Own HTML: Creating Links and Formatting Text9m
+- Creating Your Own HTML: Working with Images8m
+- Creating Your Own HTML: Working with Tables7m
+- Creating HTML - How to Practice7m
+- How to Put Your HTML on the Internet3m
+- How to Test Your HTML5m
+- Basic Styling in Webpages6m
+
+**** Week 2 Reading
+- HTML Additional Resources45m
+
+**** Week 2 Practice Exercise
+- Module 2 Quiz 20m
+
+*** Week 3---Introduction to Programming Using JavaScript
+:PROPERTIES:
+:hours:    3
+:END:
+
+Now that you know some basic HTML, it's time to turn our attention to another
+common scripting language used to make websites dynamic - that is allowing
+users to interact with your webpages - JavaScript.  While learning about
+JavaScript, you'll also gain some foundational knowledge common to all
+programming languages.  By the end of this module, you'll be able to: discuss
+what is meant by
+- dynamic content;
+- perform essential programming language tasks;
+- create simple JavaScript programs;
+- use JavaScript to set up alerts and respond to events,
+- to read input, and
+- to change HTML; and
+- conduct basic JavaScript testing.
+
+**** Week 3 Videos
+- Module 3 Introduction 1m
+- Static vs. Dynamic Webpages 5m
+- The Value of JavaScript to Our Websites 3m
+- JavaScript Basics: Fundamental Syntax, Part 15m
+- JavaScript Basics: Fundamental Syntax, Part 210m
+- Putting JavaScript to Work: Using Alerts and Prompts 9m
+- Putting Javascript to Work: Events 7m
+- Putting JavaScript to Work: Gathering Additional User Input and Dynamically
+  Modifying HTML 6m
+- Testing JavaScript 8m
+
+**** Week 3 Reading
+- JavaScript Additional Resources 45m
+
+**** Week 3 Practice Exericse
+- Module 3 Quiz 20m
+
+*** Week 4---Websites with Style--CSS Properties, Colors and Fonts
+:PROPERTIES:
+:hours:    4
+:END:
+
+While  HTML and  JavaScript are  very useful  for web  development, they  don't
+exactly make websites look attractive - that's where cascading style sheets, or
+CSS, comes into play.   While HTML is used to build the  structure of our pages
+and JavaScript  is used to  provide interactive  functionality, CSS is  used to
+graphically design and  layout webpages.  By the end of  this module, you'll be
+able to:
+- discuss common mistakes in designing a website;
+- identify and apply CSS basics like  purpose and syntax;
+- use  CSS properties to control  fonts, colors, layouts, and other common
+  properties;
+- differentiate between in-line, internal, and external CSS; and
+- practice and test your cascading style sheets.
+
+**** Week 4 Videos
+- Module 4 Introduction 2m
+- Plain Websites are Boring 4m
+- CSS Basics, Part 16m
+- CSS Basics, Part 24m
+- Putting CSS to Work: Getting Started with External CSS 7m
+- Putting CSS to Work: Setting Colors with CSS 4m
+- Putting CSS to Work: Controlling Your Page Layout 4m
+- Putting CSS to Work: Common CSS Properties 4m
+- How to Practice CSS 4m
+- Testing Website Styles 6m
+
+**** Week 4 Readings
+- CSS Additional Resources 45m
+
+**** Week 4 Practice Exercise
+- Module 4 Quiz 20m
+
+*** Week 5---Creating HTML Forms
+:PROPERTIES:
+:hours:    4
+:END:
+
+In this lesson, we're going to learn  to apply all of the skills we've acquired
+so far to make  a very common, and very useful type of  webpage - an HTML form.
+HTML  forms  are seen  everywhere  on  the internet  and  are  used to  capture
+particular information  from users in  a variety of ways.   By the end  of this
+module you'll be able to:
+- create basic HTML forms;
+- identify and appropriately use different types of HTML input;
+- validate user input;
+- submit HTML forms; and
+- test how your forms are working and troubleshoot errors.
+
+**** Week 5 Videos
+- Module 5 Introduction 1m
+- HTML Forms User Input 7m
+- HTML Form Elements 7m
+- HTML Form Validation: JavaScript 6m
+- HTML Form Validation: Complex Form Example 5m
+- HTML Form Validation: Additional Features 7m
+- HTML Form Validation: Processing 5m
+
+**** Week 5 Reading
+- HTML Forms Additional Resources 45m
+
+**** Week 5 Practice Exercise
+Module 5 Quiz 20m
+
+*** Week 6---Creating Web Applications
+:PROPERTIES:
+:hours:    5
+:END:
+
+In our final module, we're going to explore the basics of designing web
+applications - programming useful and dynamic webpages that allow our users to
+interact with them. By the end of this lesson you'll be able to:
+- distinguish between client and server-side development;
+- apply advanced JavaScript programming skills to create logic with selection
+  and iteration; create new features for applications;
+- create more advanced HTML forms; and
+- practice and learn additional troubleshooting and problem-solving techniques.
+
+
+**** Week 6 Videos
+- Module 6 Introduction 1m
+- Client-side versus Server-side Application Development 4m
+- Features in Web Applications: The While Loop 5m
+- Features in Web Applications: The For Loop 5m
+- Creating New Features in Web Applications 3m
+- Guided Practice with HTML Form Validation, Part 1 5m
+- Guided Practice with HTML Form Validation, Part 2 7m
+- Course Summary 1m
+
+
+The module wraps with a final peer review activity that will draw upon all of
+the skills you've learned in this course.
+
+**** Week 6 Readings
+- Validating HTML Forms 45m
+
+**** Week 6 Exercise
+- Module 6 Quiz 20m
 
 * Website Structure • Website Hosting
   #+cindex:hosting, website
